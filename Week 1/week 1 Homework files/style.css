@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dff9fb;
+}
+
+section {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/* flex to order the divs , 100vh to take th all screen*/
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 62em;
+  border: #fed330 10px solid;
+}
+
+.cvInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2bcbba;
+  width: 30%;
+  height: 60.8em;
+}
+
+.infoPers p {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 8px;
+  color: white;
+  margin-top: 10px;
+}
+
+/* Id to give th name a color */
+#name {
+  color: #fed330;
+}
+
+.infoAbou p {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 11px;
+  margin-top: 6px;
+  color: white;
+}
+
+.infoImg,
+.infoPers,
+.infoAbou {
+  width: 96%;
+  height: 34%;
+  border-bottom: 10px solid white;
+  text-align: center;
+}
+
+.infoImg img {
+  margin-top: 10px;
+}
+.infoImg {
+  background: url(https://drive.google.com/uc?export=view&id=1qDFOEw5IWjClo3HqOBXfqRsiiAq2jnGV)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cvContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: 60.8em;
+}
+
+/* I grouped the classes tm ,ake the code cleaner*/
+.languages,
+.Edu,
+.PersSkills {
+  width: 70%;
+  height: 20.3em;
+  border-bottom: 10px solid #2bcbba;
+  padding-top: 5px;
+}
+
+.title {
+  font-size: 33px;
+  font-weight: 600;
+  text-align: center;
+  color: #fed330;
+  padding-top: 0px;
+  padding-bottom: 4px;
+}
+
+.languages li,
+.Edu li,
+.PersSkills li {
+  list-style: none;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 7px;
+}
+
+.languages p,
+.Edu p,
+.PersSkills p {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.languages strong,
+.Edu strong,
+.PersSkills strong {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
